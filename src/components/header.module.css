@@ -1,0 +1,51 @@
+@import "./layout.css";
+
+.header {
+  padding: 3rem 0 3rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0 0 0;
+
+  height: auto;
+}
+
+.subtitle {
+  font-size: 13px;
+  display: block;
+  text-align: center;
+  color: var(--gray-400);
+  padding: 0.5rem 0 2rem 0;
+}
+
+.nav {
+  text-align: center;
+  display: blok;
+  min-height: 4rem;
+  padding: 2rem 0;
+}
+
+.nav a {
+  font-size: 16px;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: var(--black);
+}
+.nav a:hover {
+  color: var(--gray-400);
+  border: none;
+}
+
+.nav a.active {
+  color: var(--pink);
+}
+
+.nav a:first-child {
+  color: var(--black);
+  font-size: 1.5rem;
+  display: block;
+  font-weight: 600;
+  padding: 0.25rem 0;
+}
